@@ -1,0 +1,12 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/virgo"]
+	path = themes/virgo
+	url = https://github.com/loveminimal/hugo-theme-virgo.git
+[submodule "themes/hermit"]
+	path = themes/hermit
+	url = https://github.com/1bl4z3r/hermit-V2.git
+[submodule "themes/osprey"]
+	path = themes/osprey
+	url = https://github.com/tomanistor/osprey.git
