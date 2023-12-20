@@ -1,40 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Teamleader (PROD)</title>
+    <title>Teamleader (PROD)</title>
     <link>https://teamleader.se/</link>
-    <description>Recent content in Home on Teamleader (PROD)</description>
+    <description>Recent content on Teamleader (PROD)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Jan 2023 08:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 19 Dec 2023 16:03:53 +0100</lastBuildDate>
     <atom:link href="https://teamleader.se/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>https://teamleader.se/posts/hello-world/</link>
+      <title>Teamleader Cosulting</title>
+      <link>https://teamleader.se/posts/about/</link>
       <pubDate>Tue, 19 Dec 2023 16:03:53 +0100</pubDate>
-      <guid>https://teamleader.se/posts/hello-world/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Post 3</title>
-      <link>https://teamleader.se/posts/post-3/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://teamleader.se/posts/post-3/</guid>
-      <description>Occaecat aliqua consequat laborum ut ex aute aliqua culpa quis irure esse magna dolore quis. Proident fugiat labore eu laboris officia Lorem enim. Ipsum occaecat cillum ut tempor id sint aliqua incididunt nisi incididunt reprehenderit. Voluptate ad minim sint est aute aliquip esse occaecat tempor officia qui sunt. Aute ex ipsum id ut in est velit est laborum incididunt. Aliqua qui id do esse sunt eiusmod id deserunt eu nostrud aute sit ipsum.</description>
-    </item>
-    <item>
-      <title>Post 2</title>
-      <link>https://teamleader.se/posts/post-2/</link>
-      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
-      <guid>https://teamleader.se/posts/post-2/</guid>
-      <description>Anim eiusmod irure incididunt sint cupidatat. Incididunt irure irure irure nisi ipsum do ut quis fugiat consectetur proident cupidatat incididunt cillum. Dolore voluptate occaecat qui mollit laborum ullamco et. Ipsum laboris officia anim laboris culpa eiusmod ex magna ex cupidatat anim ipsum aute. Mollit aliquip occaecat qui sunt velit ut cupidatat reprehenderit enim sunt laborum. Velit veniam in officia nulla adipisicing ut duis officia.&#xA;Exercitation voluptate irure in irure tempor mollit Lorem nostrud ad officia.</description>
-    </item>
-    <item>
-      <title>Post 1</title>
-      <link>https://teamleader.se/posts/post-1/</link>
-      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
-      <guid>https://teamleader.se/posts/post-1/</guid>
-      <description>Tempor proident minim aliquip reprehenderit dolor et ad anim Lorem duis sint eiusmod. Labore ut ea duis dolor. Incididunt consectetur proident qui occaecat incididunt do nisi Lorem. Tempor do laborum elit laboris excepteur eiusmod do. Eiusmod nisi excepteur ut amet pariatur adipisicing Lorem.&#xA;Occaecat nulla excepteur dolore excepteur duis eiusmod ullamco officia anim in voluptate ea occaecat officia. Cillum sint esse velit ea officia minim fugiat. Elit ea esse id aliquip pariatur cupidatat id duis minim incididunt ea ea.</description>
+      <guid>https://teamleader.se/posts/about/</guid>
+      <description>Welcome to the realm of cutting-edge backend services with our exceptional consultant, where technology meets innovation! Our website is dedicated to showcasing the expertise and proficiency of our seasoned backend services consultant, designed to meet the dynamic needs of modern businesses.&#xA;Discover the prowess of our consultant who navigates the intricate world of backend services with finesse and acumen. Through a seamless blend of technical expertise and strategic insight, our consultant crafts solutions that propel businesses towards unparalleled success in the digital landscape.</description>
     </item>
   </channel>
 </rss>
