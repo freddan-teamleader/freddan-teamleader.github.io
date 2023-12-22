@@ -1,5 +1,5 @@
 ---
-title: "Teamleader Cosulting"
+title: "Teamleader Consulting"
 date: 2023-12-19T16:03:53+01:00
 author: Fredrik Gustafsson
 email: info@teamleader.se
