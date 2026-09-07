@@ -1,0 +1,42 @@
+/* teamleader.se — design tokens (canonical source)
+ *
+ * Byte-identical copies live in two repos:
+ *   dimelords/lunchguide          → site/tokens.css   (served at /tokens.css)
+ *   freddan-teamleader.github.io  → docs/tokens.css   (served at /tokens.css)
+ *
+ * Edit one, copy to the other. Nothing here may differ between the two —
+ * that is the whole point of the file. Per-surface values (display/UI
+ * typeface, layout metrics) belong in each page's own :root, not here.
+ */
+
+:root {
+  /* ── Surfaces ──────────────────────────────────────────── */
+  --bg:             #0f0e0d;
+  --surface:        #1a1917;
+  --surface-alt:    #222120;
+  --tag-bg:         #2a2724;
+
+  /* ── Lines ─────────────────────────────────────────────── */
+  --border:         #2e2c2a;                 /* solid hairline          */
+  --border-soft:    rgba(240,236,230,0.08);  /* translucent, over --bg  */
+
+  /* ── Text ──────────────────────────────────────────────── */
+  --text-primary:   #f0ece6;
+  --text-muted:     #8a8480;
+
+  /* ── Warm accent ramp (gold → bronze → copper) ─────────── */
+  --accent:         #c9a96e;   /* gold — primary accent  */
+  --accent-muted:   #8a7250;   /* dimmed gold            */
+  --accent-bronze:  #a87f4a;   /* secondary              */
+  --accent-copper:  #c2703f;   /* tertiary               */
+  --accent-light:   #e3bd82;   /* highlight              */
+
+  /* ── Type ──────────────────────────────────────────────── */
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* --font-display and --font-ui are deliberately NOT set here.
+   * The two surfaces still use different faces (Space Grotesk on the
+   * brand landing, Playfair Display + Inter on the lunch guide). Each
+   * page sets them in its own :root. Unify them here once that design
+   * decision is made. */
+}
