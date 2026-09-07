@@ -5,7 +5,7 @@ Static brand site for **teamleader.se**. Plain HTML/CSS/JS — no build step.
 Previously a Hugo (`hyde`) site; that has been retired in favour of the
 hand-built landing page (extracted from the lunch-guide repo, which used to serve
 it). The lunch guide is now a separate project on
-[`lunch.teamleader.se`](https://lunch.teamleader.se).
+[`lunchguide.teamleader.se`](https://lunchguide.teamleader.se).
 
 ## Deploy
 
@@ -24,7 +24,7 @@ Edit files under `docs/` and push to `main`; Pages publishes automatically.
 
 ## Related projects
 
-- **Lunch Guide** — MCP server + web UI, `lunch.teamleader.se` (repo: `mcp-lunch`)
+- **Lunch Guide** — MCP server + web UI, `lunchguide.teamleader.se` (repo: `dimelords/lunchguide`)
 - **Music Roaster** — party-song app, `music.teamleader.se` (repo: `dimelords/music-roaster`)
 
 > `golfquiz/` is a separate app kept in this repo and is not part of the static site.
