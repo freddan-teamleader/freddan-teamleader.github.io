@@ -372,6 +372,7 @@
   <div class="nav-links mono">
     <a href="#stack" data-i18n="navStack">stack</a>
     <a href="#demo" data-i18n="navDemo">demo</a>
+    <a href="#apps" data-i18n="navApps">apps</a>
     <a href="mailto:info@teamleader.se" data-i18n="navContact">contact</a>
   </div>
   <div class="nav-right">
@@ -527,6 +528,44 @@
   </div>
 </section>
 
+<section class="demo" id="apps">
+  <div class="demo-head">
+    <div>
+      <div class="label mono" style="color: var(--accent); letter-spacing: 0.14em; font-size: 12px; text-transform: uppercase; margin-bottom: 14px;" data-i18n="appsLabel">// in production · music-roaster.teamleader.se</div>
+      <h2 data-i18n-html="appsTitle">An app we built. <span class="grad">Live.</span></h2>
+    </div>
+    <p data-i18n-html="appsSub">Music Roaster turns a party into songs. Guests scan a QR code and write about each other; Claude writes the lyrics, Suno sings them, and the host plays them to the room. Built and run by us.</p>
+  </div>
+
+  <div class="tech-grid">
+    <div class="card hero-card span-6">
+      <div class="icon">R</div>
+      <h3 data-i18n="a1h">Music Roaster</h3>
+      <p data-i18n="a1p">Stories in, songs out: a guest flow with no app or account, a content check before anything is sung, lyrics with twists and clean rhymes, and a slideshow with the lyrics as subtitles.</p>
+      <div class="meta"><span data-i18n="a1m1">Go · Postgres · React</span><b data-i18n="a1m2">Claude · Suno</b></div>
+    </div>
+    <div class="card span-3">
+      <div class="icon">S</div>
+      <h3 data-i18n="a2h">Payments</h3>
+      <p data-i18n="a2p">Songs sold in packs through Stripe Checkout, credited only from signed webhooks, refunds taken back automatically.</p>
+      <div class="meta"><span data-i18n="a2m1">Stripe</span><b data-i18n="a2m2">live</b></div>
+    </div>
+    <div class="card span-3">
+      <div class="icon">P</div>
+      <h3 data-i18n="a3h">Prompted for laughs</h3>
+      <p data-i18n="a3p">What guests write is a seed, not a script: the prompt follows each story to a punchline, sharper with every roast level.</p>
+      <div class="meta"><span data-i18n="a3m1">prompt design</span><b data-i18n="a3m2">claude-opus-5</b></div>
+    </div>
+  </div>
+
+  <div class="trace-footer" style="border-top: 0; margin-top: 22px; padding-top: 0;">
+    <a class="real-link" href="https://music-roaster.teamleader.se" target="_blank" rel="noreferrer">
+      <span class="arrow">↗</span>
+      <span><b data-i18n="appsLink">Try it</b><span class="url">music-roaster.teamleader.se</span></span>
+    </a>
+  </div>
+</section>
+
 <section class="footer-cta">
   <h2 data-i18n-html="footTitle"><span class="grad">Build with us.</span><br/>Ship in weeks, not quarters.</h2>
   <a class="mail" href="mailto:info@teamleader.se">info@teamleader.se →</a>
@@ -539,7 +578,17 @@
 <script>
 const i18n = {
   en: {
-    navStack: "stack", navDemo: "demo", navContact: "contact",
+    navStack: "stack", navDemo: "demo", navApps: "apps", navContact: "contact",
+    appsLabel: "// in production · music-roaster.teamleader.se",
+    appsTitle: 'An app we built. <span class="grad">Live.</span>',
+    appsSub: "Music Roaster turns a party into songs. Guests scan a QR code and write about each other; Claude writes the lyrics, Suno sings them, and the host plays them to the room. Built and run by us.",
+    a1h: "Music Roaster", a1p: "Stories in, songs out: a guest flow with no app or account, a content check before anything is sung, lyrics with twists and clean rhymes, and a slideshow with the lyrics as subtitles.",
+    a1m1: "Go · Postgres · React", a1m2: "Claude · Suno",
+    a2h: "Payments", a2p: "Songs sold in packs through Stripe Checkout, credited only from signed webhooks, refunds taken back automatically.",
+    a2m1: "Stripe", a2m2: "live",
+    a3h: "Prompted for laughs", a3p: "What guests write is a seed, not a script: the prompt follows each story to a punchline, sharper with every roast level.",
+    a3m1: "prompt design", a3m2: "claude-opus-5",
+    appsLink: "Try it",
     status: "deploying", eyebrow: " · AWS · MCP · agents · Stockholm",
     headline: 'Your AI stack,<br/><span class="grad">fully assembled.</span>',
     sub: "From MCP servers and Bedrock guardrails to AgentCore runtimes and vector retrieval — we engineer the entire production stack, then hand it back to your team running on AWS.",
@@ -572,7 +621,17 @@ const i18n = {
     placeholderRemoved: ""
   },
   sv: {
-    navStack: "stack", navDemo: "demo", navContact: "kontakt",
+    navStack: "stack", navDemo: "demo", navApps: "appar", navContact: "kontakt",
+    appsLabel: "// i produktion · music-roaster.teamleader.se",
+    appsTitle: 'En app vi byggt. <span class="grad">Live.</span>',
+    appsSub: "Music Roaster gör om en fest till låtar. Gästerna skannar en QR-kod och skriver om varandra; Claude skriver texterna, Suno sjunger dem och värden spelar upp dem för rummet. Byggd och driftad av oss.",
+    a1h: "Music Roaster", a1p: "Historier in, låtar ut: ett gästflöde utan app eller konto, granskning innan något sjungs, texter med vändningar och rena rim, och ett bildspel med texten som undertexter.",
+    a1m1: "Go · Postgres · React", a1m2: "Claude · Suno",
+    a2h: "Betalningar", a2p: "Låtar säljs i paket via Stripe Checkout, krediteras bara från signerade webhooks, och återbetalningar tas tillbaka automatiskt.",
+    a2m1: "Stripe", a2m2: "live",
+    a3h: "Promptad för skratt", a3p: "Det gästerna skriver är ett frö, inte ett manus: prompten följer varje historia till en poäng, vassare för varje roast-nivå.",
+    a3m1: "promptdesign", a3m2: "claude-opus-5",
+    appsLink: "Testa den",
     status: "deployar", eyebrow: " · AWS · MCP · agenter · Stockholm",
     headline: 'Din AI-stack,<br/><span class="grad">fullt monterad.</span>',
     sub: "Från MCP-servrar och Bedrock-guardrails till AgentCore-runtimes och vektorsökning — vi bygger hela produktionsstacken och lämnar över den körandes på AWS.",
