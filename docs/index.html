@@ -179,6 +179,7 @@
   .card { background: var(--bg); padding: 26px 24px 24px; }
   .span-6 { grid-column: span 6; }
   .span-3 { grid-column: span 3; }
+  .span-12 { grid-column: span 12; }
   .card .icon {
     width: 30px; height: 30px; border-radius: var(--radius-sm);
     display: grid; place-items: center; margin-bottom: 16px;
@@ -447,13 +448,14 @@
   <span class="pill">OpenSearch</span>
   <span class="pill">pgvector</span>
   <span class="pill">Claude · GPT · Llama</span>
+  <span class="pill">Copilot · Gemini</span>
   <span class="pill">LangGraph</span>
   <span class="pill">Terraform</span>
 </div>
 
 <section class="tech" id="stack">
   <div class="section-head">
-    <div class="label" data-i18n="techLabel">// 06 capabilities</div>
+    <div class="label" data-i18n="techLabel">// 07 capabilities</div>
     <h2 data-i18n-html="techTitle">We bring the <span class="grad">whole stack</span>, not the slide deck.</h2>
   </div>
 
@@ -462,7 +464,7 @@
       <div class="icon">M</div>
       <h3 data-i18n="t1h">MCP servers</h3>
       <p data-i18n="t1p">Production Model Context Protocol servers that let Claude, GPT and local models call your real tools — Postgres, Salesforce, internal APIs — with auth, audit, and rate-limits.</p>
-      <div class="meta"><span data-i18n="t1m1">14 servers in production</span><b data-i18n="t1m2">Anthropic · OpenAI</b></div>
+      <div class="meta"><span data-i18n="t1m1">14 servers in production</span><b data-i18n="t1m2">Claude · Copilot · Gemini</b></div>
     </div>
     <div class="card span-6">
       <div class="icon">A</div>
@@ -490,6 +492,13 @@
       <div class="icon">E</div>
       <h3 data-i18n="t6h">Skills &amp; evals</h3>
       <p data-i18n="t6p">Reusable capability packs and the eval harnesses that keep agents from regressing.</p>
+    </div>
+
+    <div class="card span-12">
+      <div class="icon">X</div>
+      <h3 data-i18n="t7h">One agent, every assistant</h3>
+      <p data-i18n="t7p">Agents and connectors your people use in the assistant they already have — Claude, Microsoft 365 Copilot, GitHub Copilot, Gemini or ChatGPT. One MCP backend with OAuth sign-in, packaged per platform: a Copilot Studio agent in your M365 tenant, a connector in Claude, a config for VS Code or Gemini CLI.</p>
+      <div class="meta"><span data-i18n="t7m1">Copilot Studio · connectors · IDE configs</span><b data-i18n="t7m2">Claude · Copilot · Gemini · ChatGPT</b></div>
     </div>
   </div>
 </section>
@@ -594,16 +603,18 @@ const i18n = {
     sub: "From MCP servers and Bedrock guardrails to AgentCore runtimes and vector retrieval — we engineer the entire production stack, then hand it back to your team running on AWS.",
     cta1: "Watch the MCP trace", cta2: "info@teamleader.se",
     railLabel: "// working with",
-    techLabel: "// 06 capabilities",
+    techLabel: "// 07 capabilities",
     techTitle: 'We bring the <span class="grad">whole stack</span>, not the slide deck.',
     t1h: "MCP servers", t1p: "Production Model Context Protocol servers that let Claude, GPT and local models call your real tools — Postgres, Salesforce, internal APIs — with auth, audit, and rate-limits.",
-    t1m1: "14 servers in production", t1m2: "Anthropic · OpenAI",
+    t1m1: "14 servers in production", t1m2: "Claude · Copilot · Gemini",
     t2h: "AWS Bedrock AgentCore", t2p: "Managed runtime for autonomous agents on AWS — memory, identity, tools, traces, evals. We migrate your hand-rolled loops in 2 weeks.",
     t2m1: "migration · runtime · ops", t2m2: "launch partner",
     t3h: "Bedrock models", t3p: "Claude, Llama 3, Mistral and Titan inside your VPC. Guardrails, KMS, CloudWatch — done right.",
     t4h: "Vector search", t4p: "OpenSearch Serverless, pgvector, Pinecone. p95 retrieval < 100ms or your money back.",
     t5h: "Orchestration", t5p: "Multi-step agents with tool selection, retries, hand-off, human-in-the-loop checkpoints.",
     t6h: "Skills & evals", t6p: "Reusable capability packs and the eval harnesses that keep agents from regressing.",
+    t7h: "One agent, every assistant", t7p: "Agents and connectors your people use in the assistant they already have — Claude, Microsoft 365 Copilot, GitHub Copilot, Gemini or ChatGPT. One MCP backend with OAuth sign-in, packaged per platform: a Copilot Studio agent in your M365 tenant, a connector in Claude, a config for VS Code or Gemini CLI.",
+    t7m1: "Copilot Studio · connectors · IDE configs", t7m2: "Claude · Copilot · Gemini · ChatGPT",
     demoLabel: "// recorded trace · lunchguide.mcp",
     demoTitle: 'An MCP we built. <span class="grad">Replayed.</span>',
     demoSub: 'Captured trace from our <code class="inline">lunchguide</code> MCP server. Same wire protocol Claude uses to talk to your tools — no tokens consumed, just the JSON.',
@@ -637,16 +648,18 @@ const i18n = {
     sub: "Från MCP-servrar och Bedrock-guardrails till AgentCore-runtimes och vektorsökning — vi bygger hela produktionsstacken och lämnar över den körandes på AWS.",
     cta1: "Se MCP-tracen", cta2: "info@teamleader.se",
     railLabel: "// vi jobbar med",
-    techLabel: "// 06 kapabiliteter",
+    techLabel: "// 07 kapabiliteter",
     techTitle: 'Vi levererar <span class="grad">hela stacken</span>, inte en pitchdeck.',
     t1h: "MCP-servrar", t1p: "MCP-servrar i produktion som låter Claude, GPT och lokala modeller anropa era riktiga verktyg — Postgres, Salesforce, interna API:er — med auth, audit och rate-limits.",
-    t1m1: "14 servrar i produktion", t1m2: "Anthropic · OpenAI",
+    t1m1: "14 servrar i produktion", t1m2: "Claude · Copilot · Gemini",
     t2h: "AWS Bedrock AgentCore", t2p: "Managed runtime för autonoma agenter på AWS — minne, identitet, verktyg, traces, evals. Vi migrerar era handrullade loopar på 2 veckor.",
     t2m1: "migration · runtime · drift", t2m2: "launch partner",
     t3h: "Bedrock-modeller", t3p: "Claude, Llama 3, Mistral och Titan i er VPC. Guardrails, KMS, CloudWatch — gjort rätt.",
     t4h: "Vektorsökning", t4p: "OpenSearch Serverless, pgvector, Pinecone. p95-retrieval < 100ms eller pengarna tillbaka.",
     t5h: "Orkestrering", t5p: "Flerstegs-agenter med verktygsval, retries, hand-off och human-in-the-loop.",
     t6h: "Skills & evals", t6p: "Återanvändbara skill-paket och eval-rigg som hindrar regression.",
+    t7h: "En agent, alla assistenter", t7p: "Agenter och connectors som era medarbetare använder i den assistent de redan har — Claude, Microsoft 365 Copilot, GitHub Copilot, Gemini eller ChatGPT. En MCP-backend med OAuth-inloggning, paketerad per plattform: en Copilot Studio-agent i er M365-tenant, en connector i Claude, en konfig för VS Code eller Gemini CLI.",
+    t7m1: "Copilot Studio · connectors · IDE-konfig", t7m2: "Claude · Copilot · Gemini · ChatGPT",
     demoLabel: "// inspelad trace · lunchguide.mcp",
     demoTitle: 'En MCP vi byggt. <span class="grad">Återuppspelad.</span>',
     demoSub: 'Fångad trace från vår <code class="inline">lunchguide</code>-MCP. Samma wire-protokoll som Claude använder för att prata med era verktyg — inga tokens, bara JSON.',
